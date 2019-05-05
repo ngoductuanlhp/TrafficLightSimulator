@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/16.1/Assignment_Verilog/simulation/qsim
+vClock_Counter
+!s110 1543731028
+!i10b 1
+!s100 X1]F[DblfhalKZRMC2XhM1
+IDSXeaHPEZHzRn_ZghU?BJ0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1543731026
+Z2 8Assginment1.vo
+Z3 FAssginment1.vo
+Z4 L0 32
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1543731028.000000
+Z6 !s107 Assginment1.vo|
+Z7 !s90 -work|work|Assginment1.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@clock_@counter
+vClock_Counter_vlg_vec_tst
+!s110 1543731029
+!i10b 1
+!s100 SSKknb3Rc`?Oh?FG68lW73
+IS36=l9>L814YVG]D64WEW0
+R1
+R0
+w1543731025
+Z10 8Waveform.vwf.vt
+Z11 FWaveform.vwf.vt
+Z12 L0 30
+R5
+r1
+!s85 0
+31
+!s108 1543731029.000000
+Z13 !s107 Waveform.vwf.vt|
+Z14 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R8
+R9
+n@clock_@counter_vlg_vec_tst
+vFSM
+Z15 !s110 1543746752
+!i10b 1
+!s100 15;=M<WadRIRf^Z[GC?E_1
+IbXS_FP=C8V397WBEUfUm?1
+R1
+R0
+w1543746751
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1543746752.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@f@s@m
+vFSM_vlg_vec_tst
+R15
+!i10b 1
+!s100 JY8;^DQfoWj[<IKLc;eTO1
+IXgnB4@`8>c8oaQahX>R0g3
+R1
+R0
+w1543746750
+R10
+R11
+R12
+R5
+r1
+!s85 0
+31
+R16
+R13
+R14
+!i113 1
+R8
+R9
+n@f@s@m_vlg_vec_tst
+vtest_FSM_ClockCounter
+Z17 !s110 1544054657
+!i10b 1
+!s100 3:`lFibM5Z<H8JoUO_dS62
+I^:Q9RaF>;b]CG[DXz9m:?0
+R1
+R0
+w1544054657
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z18 !s108 1544054657.000000
+R6
+R7
+!i113 1
+R8
+R9
+ntest_@f@s@m_@clock@counter
+vtest_FSM_ClockCounter_vlg_vec_tst
+R17
+!i10b 1
+!s100 T^7B1Y?N`1D^:XJ1CXj;S3
+IPR9DjCEZOXW`0bViMo6lb0
+R1
+R0
+w1544054656
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R18
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R8
+R9
+ntest_@f@s@m_@clock@counter_vlg_vec_tst

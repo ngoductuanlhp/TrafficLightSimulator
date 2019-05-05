@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Register_Time.v(22): always construct contains both blocking and non-blocking assignments File: D:/intelFPGA_lite/16.1/Assignment_Verilog/Register_Time.v Line: 22

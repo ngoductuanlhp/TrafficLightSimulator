@@ -1,0 +1,19 @@
+module Register_Time(A,clk,set_mode,Time);
+input [7:0]A;
+input clk,set_mode;
+output reg [7:0]Time[2:0];
+initial begin
+Time[0]=8'd0;
+Time[1]=8'd0;
+Time[2]=8'd0;  
+end
+
+always@(posedge clk) begin
+if(set_mode) begin
+Time[2]=Time[1];
+Time[1]=Time[0];
+Time[0]=A;
+end
+end
+
+endmodule

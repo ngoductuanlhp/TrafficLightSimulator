@@ -1,0 +1,26 @@
+module Clock_Counter(clk,rst,set_mode,fsm_r,fsm_y,fsm_g,c_s,r_end,y_end,g_end);
+
+input clk,rst,set_mode,fsm_r,fsm_y,fsm_g,c_s;
+
+output r_end,y_end,g_end;
+
+reg [7:0]count;
+wire clr_counter;
+
+parameter time_r=8'd2;
+parameter time_y=8'd2;
+parameter time_g=8'd8;
+
+always@(posedge clk,posedge rst,posedge set_mode) begin
+if(rst||setmode) count<=8'd0;
+else if(clr_counter) count<=8'd0;
+else count<=count+1;
+end
+
+assign r_end=fsm_r&&(count==time_r);
+assign y_end=fsm_y&&(count==time_y);
+assign g_end=fsm_g&&(count==time_g);
+
+assign clr_counter=r_end||y_end||g_end||c_s;
+
+endmodule
